@@ -23,4 +23,5 @@ def kesha_maker (array)
     word.delete(word[2])
     #new_word.insert(2,"$")
   end
+  array
 end

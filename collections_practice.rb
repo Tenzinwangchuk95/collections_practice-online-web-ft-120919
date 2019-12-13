@@ -20,9 +20,9 @@ end
 
 def kesha_maker (array)
   new_array = []
-  new_array << array.each do |word|
+  array.each do |word|
     new_word = word.delete(word[2])
-    new_word.insert(2,"$")
+    new_array << new_word.insert(2,"$")
   end
   new_array
 end

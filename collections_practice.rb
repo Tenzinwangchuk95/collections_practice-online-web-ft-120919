@@ -36,7 +36,11 @@ def sum_array (array)
 end
 
 def add_s (array)
-  array.each_with_index.collect do |element, index| when index =! 2 element + "s"}
+  array.each_with_index.collect do |element, index| 
+    while index =! 2 
+      element + "s"}
+    end
+  end
 end
   
   

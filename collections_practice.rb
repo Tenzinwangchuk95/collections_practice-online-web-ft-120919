@@ -36,12 +36,11 @@ def sum_array (array)
 end
 
 def add_s (array)
-  array.each_with_index.collect do |element, index| 
+   return array.each_with_index.collect do |element, index| 
     while index =! 2 
       element + "s"
     end
   end
-  return array
 end
   
   

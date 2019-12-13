@@ -37,7 +37,7 @@ end
 
 def add_s (array)
    return array.each_with_index do |element, index| 
-    while index == 2 
+    while index != 2 
       element + "s"
     end
   end
